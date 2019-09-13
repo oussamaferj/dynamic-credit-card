@@ -1,0 +1,55 @@
+
+.credit-card {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 350px;
+  border-radius: 30px;
+  color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  margin-left: 500px;
+  background: url("https://cdn.pixabay.com/photo/2016/07/02/17/13/wallpaper-1493363_960_720.jpg") ; 
+  background-size: cover;
+  align-items: flex-start;
+  padding: 30px 45px;
+  box-sizing: border-box
+}
+.credit-card-title{
+  align-self: flex-end;
+}
+.img1{
+  width: 79px;
+  height: 100px;
+}
+.img2{
+  border-radius: 20%;
+}
+.credit-card-number{
+  font-size: 32px;
+  color:gold; 
+  background: rgba(0, 151, 19, 0.3); 
+}
+
+.credit-card-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+  width: 100%;
+  align-items: flex-end;
+}
+
+.credit-card-text p {
+  margin: 10px;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.inputs{
+ width: 10%;
+ margin-left: 1050px;
+ margin-top: -200px;
+}
